@@ -25,7 +25,6 @@ activate :blog do |blog|
   # blog.page_link = "page/:num"
 end
 
-
 Disqus::defaults[:account] = 'sonofsedonia'
 Disqus::defaults[:developer] = true
 
