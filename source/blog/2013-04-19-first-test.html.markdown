@@ -1,6 +1,6 @@
 ---
 title: This is my first test file
-date: 2012-01-01
+date: 2013-04-19
 tags: test, example
 ---
 
