@@ -5,3 +5,6 @@ tags: example
 ---
 
 # This is an example article. You probably want to delete it and write your own articles!
+
+something
+![alt text](http://i.imgur.com/EZdSNjv.jpg "Title")
