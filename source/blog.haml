@@ -3,9 +3,9 @@ pageable: true
 per_page: 10
 layout: layout
 ---
-%section#blog
+%section#blog.index
   .row
-    .large-9.columns
+    .large-12.columns
       - page_articles.each_with_index do |article, i|
         %a.article(href="#{article.url}")
           .row
@@ -21,31 +21,41 @@ layout: layout
               - disqus_thread
 
       - if paginate
-        %p
-          Page #{page_number} of #{num_pages}
-        - if prev_page
-          %p= link_to 'Previous page', prev_page
-        - if next_page
-          %p= link_to 'Next page', next_page
-
-    .large-3.columns
-      %aside
-        %h4 Recent Articles
-        %ul
-          - blog.articles[0...10].each do |article|
-            %li
-              = link_to article.title, article
-              %span= article.date.strftime('%b %e')
-        %h4 Tags
-        %ol
-          - blog.tags.each do |tag, articles|
-            %li
-              = link_to tag, tag_path(tag)
-              (#{articles.size})
-        %h4 By Year
-        %ol
-          - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
-            %li
-              = link_to year, blog_year_path(year)
-              (#{articles.size})
+        .blog-pagination
+          .row
+            .large-3.columns
+              - if prev_page
+                %a(href="#{prev_page.url}")
+                  %i.icon-chevron-left
+                  Previous
+              - else
+                &nbsp;
+            .large-6.columns.center
+              Page #{page_number} of #{num_pages}
+            .large-3.columns.right
+              - if next_page
+                %i.icon-chevron-right
+                Next
+              - else
+                &nbsp;
+    / .large-3.columns
+    /   %aside
+    /     %h4 Recent Articles
+    /     %ul
+    /       - blog.articles[0...10].each do |article|
+    /         %li
+    /           = link_to article.title, article
+    /           %span= article.date.strftime('%b %e')
+    /     %h4 Tags
+    /     %ol
+    /       - blog.tags.each do |tag, articles|
+    /         %li
+    /           = link_to tag, tag_path(tag)
+    /           (#{articles.size})
+    /     %h4 By Year
+    /     %ol
+    /       - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
+    /         %li
+    /           = link_to year, blog_year_path(year)
+    /           (#{articles.size})
   = disqus_comment_counts

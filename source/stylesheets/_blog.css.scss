@@ -12,7 +12,7 @@
 
   h5 { margin-top: 0; }
 
-  h6, dt {
+  h6, dt, .blog-pagination {
     @include text-shadow(none);
     color: $fourth-color;
     text-transform: uppercase;
@@ -21,7 +21,18 @@
     letter-spacing: emCalc(3px);
     // font-weight: 300;
   }
-
+  .blog-pagination {
+    border-bottom: 1px solid $secondary-color;
+    padding-bottom: emCalc(12px);
+    margin-bottom: emCalc(12px);
+  }
+  &.index {
+    .blog-pagination {
+      border: none;
+      // padding-bottom: emCalc(12px);
+      // margin-bottom: emCalc(12px);
+    }
+  }
   .button.twitter { margin-bottom: emCalc(24px); }
   .article {
     display: block;
@@ -79,4 +90,5 @@ dl {
     margin-top: emCalc(24px);
   }
 
+  .pagination { margin-bottom: emCalc(12px); }
 }

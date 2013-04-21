@@ -2,6 +2,12 @@
   %section#blog
     .row
       .large-9.columns
+        .blog-pagination
+          .row
+            .large-12.columns
+              %a(href="/blog")
+                %i.icon-chevron-left
+                Blog Index
         %article
           %h6= current_page.date.strftime('%B %e, %G')
           %h1.title= current_page.title
