@@ -13,13 +13,12 @@
   h5 { margin-top: 0; }
 
   h6, dt, .blog-pagination {
-    @include text-shadow(none);
+    @include text-shadow(none !important);
     color: $fourth-color;
     text-transform: uppercase;
     font-size: emCalc(12px);
     font-family: 'lato', serif;
     letter-spacing: emCalc(3px);
-    // font-weight: 300;
   }
   .blog-pagination {
     border-bottom: 1px solid $secondary-color;

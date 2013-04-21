@@ -75,7 +75,7 @@ $dark-bg: image_url("square_bg.png");
 @import "mixins/buttons";
 @import "blog";
 
-#summary, #reviews { padding-top: $topbar-height; margin-top: -$topbar-height; }
+#summary, #reviews, #author { padding-top: $topbar-height; margin-top: -$topbar-height; }
 * {
   @include text-shadow(0 1px 0 rgba(0,0,0,.12));
   -webkit-font-smoothing: antialiased;
