@@ -20,7 +20,8 @@
           %dl
             %dt Short URL
             %dd
-              %a(href="") http://something.com
+              - shorturl = ShortURL.shorten("http://sonofsedonia.com#{current_page.url}")
+              %a(href="#{shorturl}")= shorturl
             %dt Comments
             %dt
               = link_to "View Comments", current_page, :anchor => "disqus_thread"

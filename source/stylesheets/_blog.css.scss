@@ -3,6 +3,7 @@
   h1.title {
     text-align: left;
     color: $alert-color;
+    font-size: emCalc(42px);
     margin-bottom: emCalc(6px);
   }
 
@@ -47,17 +48,21 @@
   }
 
 
-dl {
-  dt {
-    font-size: emCalc(14px);
+  dl {
+    dt {
+      font-size: emCalc(14px);
+    }
+    dd {
+      margin-bottom: emCalc(24px);
+    }
   }
-  dd {
-    margin-bottom: emCalc(24px);
-  }
-}
-  ol, ul {
-    @include reset-list-style;
 
+  ul {
+    list-style-position: inside;
+    li {
+      text-indent: -1em;
+      margin-left: 1em;
+    }
   }
 
   .comments {

@@ -5,6 +5,7 @@ gem "middleman-blog", "~> 3.2.0"
 
 # The latest middleman-sprockets does weird things to routing of font files
 gem "middleman-sprockets", "=3.0.4"
+gem "shorturl", "~>1.0.0"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0.0"
