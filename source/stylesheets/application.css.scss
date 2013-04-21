@@ -44,7 +44,7 @@ $topbar-title-font-size : 26px;
 
 $topbar-link-font-size  : emCalc(18px);
 $topbar-margin-bottom   : 0;
-$topbar-breakpoint      : 768px;
+$topbar-breakpoint      : 868px;
 
 /* REVEAL */
 $reveal-modal-bg        : transparent;
@@ -66,7 +66,6 @@ $secondary-button-background-hover: $secondary-color;
 $white-bg: image_url("square_bg.png");
 $grey-bg: image_url("square_bg.png");
 $dark-bg: image_url("square_bg.png");
-
 
 @import "foundation";
 @import "compass/css3";
@@ -128,6 +127,7 @@ blockquote p {
 
 .top-bar .button {
   font-size: 16px;
+  line-height: emCalc(32px);
   margin-top: 3px;
 }
 
