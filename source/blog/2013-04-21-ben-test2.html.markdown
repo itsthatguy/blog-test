@@ -1,0 +1,16 @@
+---
+title: Concept Art - Sergeant John Kabbard
+date: 2013-04-21
+tags: example
+summary: One of the most feared and respected officers in the Sedonia City Police Department's EXO division.  
+thumbnail: http://i.imgur.com/MgLZWpVh.jpg
+---
+
+![alt text](http://i.imgur.com/MgLZWpVh.jpg "Title")
+
+One of the most feared and respected officers in the Sedonia City Police Department's EXO division. Kabbard is a 20 year veteran of bladeebladeeblah...
+
+##An EXO's Gear
+- Lightweight Flak Armor
+- Standard issue MP720 Submachine Gun with non-lethal stun bayonet and Stun Spur ammo capability.
+- Full Augmentor Rig - A mechanical exoskeleton networked directly to an officer's central nervous system and Neural Heads-Up-Display. The SCPD Nanotech coursing through an officer's cells enables full body-extension control, tactical communications interface, noise-cancelling audio, and even infra-red vision.
