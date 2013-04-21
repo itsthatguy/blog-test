@@ -1,12 +1,12 @@
 - wrap_layout :layout do
   %section#blog
     .row
-      .large-8.columns
+      .large-9.columns
         %article
           %h6= current_page.date.strftime('%B %e, %G')
           %h1.title= current_page.title
           = yield
-      .large-4.center.columns
+      .large-3.center.columns
         .sidebar
           %a.button.twitter(href="http://twitter.com/share?text=I just read #{current_page.title} by @benchaneysos. Check it out #{current_page.url}.&amp;related=benchaneysos&amp;url=")
             %i.icon-twitter
@@ -19,7 +19,7 @@
             %dt
               = link_to "View Comments", current_page, :anchor => "disqus_thread"
     .row
-      .large-8.columns
+      .large-9.columns
         = disqus_thread
 
 = disqus_comment_counts
