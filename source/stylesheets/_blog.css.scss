@@ -25,6 +25,7 @@
     border-bottom: 1px solid $secondary-color;
     padding-bottom: emCalc(12px);
     margin-bottom: emCalc(12px);
+    .right { text-align: right; }
   }
   &.index {
     .blog-pagination {
