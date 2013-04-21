@@ -1,0 +1,221 @@
+%section#overview
+  .row
+    .large-12.columns
+      .row
+        .large-6.columns
+          = image_tag "book-cover.png"
+        .large-6.columns
+          %h1 Son of Sedonia
+          %h4
+            The dreams of a slum boy. The will of a doomed civilization. Their collision will shake the world.
+          :markdown
+            An indie Sci-Fi novel written, illustrated, and self-published by <a href="#author" data-type='mixpanel' data-name="Overview: Ben Chaney">Ben Chaney</a>
+          %ul.large-block-grid-2.small-block-grid-2
+            %li
+              %a.button.expand(href="http://www.amazon.com/Son-of-Sedonia-ebook/dp/B00AO5ID9Q" data-type='mixpanel' data-name="Overview: Buy on Amazon")
+                %i.icon-amazon
+                Buy on Amazon
+            %li
+              %a.button.secondary.expand(href="SonofSedonia_Sample.zip" data-type='mixpanel' data-name="Overview: Free Preview")
+                %i.icon-download-alt
+                Free Preview
+
+          .row
+            .large-12.columns
+              .dark-panel.purchase-options
+                %h6.light-white-color Also available at:
+                %ul.large-block-grid-1
+                  %li
+                    %a(href=" http://www.barnesandnoble.com/w/son-of-sedonia-ben-chaney/1114108554?ean=2940016103365" data-type='mixpanel' data-name="Overview: Barnes & Noble Nook") Barnes & Noble Nook
+                  %li
+                    %a(href="http://www.smashwords.com/books/view/301088" data-type='mixpanel' data-name="Overview: Smashwords") Smashwords
+                  %li
+                    %a(href="http://www.kobobooks.com/ebook/Son-of-Sedonia/book-PQGTDx9XIUiESXXK8ecf0Q/page1.html?s=aZC4_k9sfk25bWJHCG7zSQ&r=1" data-type='mixpanel' data-name="Overview: Kobo") Kobo
+                  %li
+                    %a(href="https://itunes.apple.com/us/book/son-of-sedonia/id630953459?mt=11" data-type='mixpanel' data-name="Overview: iTunes") iTunes
+
+
+
+%section.light-section
+  #social
+    .row.center
+      .large-6.small-12.columns
+        %i.icon-twitter
+        %a(href="http://twitter.com/benchaneysos" data-type='mixpanel' data-name="Social: Twitter") twitter.com/benchaneysos
+      .large-6.small-12.columns
+        %i.icon-facebook
+        %a(href="http://facebook.com/sonofsedonia" data-type='mixpanel' data-name="Social: Facebook") facebook.com/sonofsedonia
+
+%section
+  #summary
+    .row
+      .large-12.columns
+        %h2 Summary
+    .row
+      .large-8.columns
+        :markdown
+          **Imagine growing up in the largest slum on the planet in the year 2080AD**. Twenty million people are your
+          neighbors, huddled together in an ocean of rusted dwellings made from whatever **Sedonia City**, the towering
+          metropolis in the distance, decides to throw away. Gang members, known as the T99s, are the heads of your
+          community: smuggling tech, trafficking drugs, and fighting a constant guerilla war with the City’s
+          bio-augmented EXO police force. There is little hope for survival. None for escape to a better life beyond
+          the half-mile high Border between city and slum. **This is Matteo’s world**. A bright kid, but sick and weak
+          since childhood, he is painfully dependent on Jogun: loving older brother, and hardened soldier for the T99s.
+          When a luxury transport from Sedonia’s aerial traffic crash-lands in Rasalla, it threatens to change Matteo
+          and Jogun’s fate forever. And all fates are connected.
+
+          **The Dwellers of Rasalla**, bound by family in the scrap, ashes, and dirt.
+
+          **The Citizens of Sedonia**, oblivious to danger in the buzzing twilight of the Neuro-Social Revolution.
+
+          **The EXOs**, placing themselves in harm’s way to perform their duty to protect their homes and fellow officers.
+
+          And **the Ruling Elite**, whose long-buried secrets and desperate plans could spell the end of civilization…or
+          a new beginning.
+
+          **Son of Sedonia** is an action-filled science fiction epic with a soul and a clear message. Its characters
+          live, breathe, suffer, and love in their different worlds, each brought to the brink as the Third-World
+          collides with the First. Their future could well be ours.
+      .large-4.columns.characters
+        =image_tag "matteo-and-jogun.png"
+
+%section.light-section
+  .row
+    .small-12.small-centered.columns
+      %h2 Inspiration
+      %h4.third
+        These three films seemed to click into place as I watched them, forming in my head the idea that would
+        be Son of Sedonia. City of God and Black Hawk Down with their intimate, unflinching true stories. Blade
+        Runner with its arresting vision of the future. The combination would be an intense, relavent character
+        drama set in our very possible future. That was the story I had to write.
+      %ul.small-block-grid-1.large-block-grid-3.kind-of-like
+        %li.movie
+          =image_tag "covers/blade-runner.jpg"
+          %h4
+            Environments of
+            .title Blade Runner
+        %li.movie
+          = image_tag "covers/city-of-god.jpg"
+          %h4
+            Drama of
+            .title City of God
+        %li.movie
+          = image_tag "covers/black-hawk-down.jpg"
+          %h4
+            Action of
+            .title Black Hawk Down
+
+%section
+  #reviews
+    .row
+      .large-12.columns
+        %h2 People love this book!
+        .row
+          .large-12.columns
+            - review_url = "http://www.amazon.com/gp/pdp/profile/A22Y3RMFBTGC0N/ref=cm_cr_pr_pdp"
+            - review_author = setup_author("Could Be Anyone", review_url, 5)
+            %h3= link_to "This was fantastic!", review_url
+            :markdown
+              > This book piqued my interest when I saw the cover art posted online, and when I read the price, I thought
+              > I'd give it a try.
+              >
+              > Mr. Chaney, I want to know every time you release a book. I could not put this down. The story was
+              > personal and fast-paced; the characters had depth which was relate-able but not so far as to exclude
+              > room for readers' imaginations; the scenery was vivid, original, and yet it was continuous in its
+              > interweaving flow with the sharp dialogue - it was simply wonderful.
+              >
+              > "Son of Sedonia" is one of the best science fiction books I've had the pleasure to read since some of
+              > Ray Bradbury's short stories. Thank you for sharing, Mr. Chaney, and I'll be looking/hoping to read more.
+              >
+              > *#{review_author}*
+          .large-12.columns
+            - review_url = "http://www.amazon.com/gp/pdp/profile/A3MWV34T1HH4O7/ref=cm_cr_pr_pdp"
+            - review_author = setup_author("Jordan Soyke", review_url, 5)
+            %h3= link_to "Haven't read a scifi book this good since Enders Game", review_url
+            :markdown
+              > This is an amazing book. Ben Chaney has a combination of literary and visual talents that are rarely
+              > found together. I am not joking when I say he is on par with Ray Bradbury, Orson Scott Card, or
+              > Verner Vinge.
+              >
+              > This is essentially a story about the development of key players at a turning point in the history of
+              > humanity. It has the coming-of-age elements of Enders Game, the unwitting messiah elements of Dune, and
+              > an interesting take on the future of technology and the inevitable importance of social networking in
+              > the future.
+              >
+              > The cover art coming straight from the writer adds an interesting dimension. This is the artists
+              > vision, not some graphic designer being paid by a publisher. After reading I'm amazed at how much
+              > of the stories essence is conveyed through such a simple image. I don't recall any cover art that
+              > does this quite as well.
+              >
+              > I look forward to the movie, which I feel is inevitable. I also greatly look forward to Ben Chaney's
+              > next story. He has instantly become one of my favorite sci-fi authors.
+              >
+              > *#{review_author}*
+        .row
+          .large-12.columns
+            - review_url = "http://www.amazon.com/gp/pdp/profile/A2HTVK8KFZAX20/ref=cm_cr_pr_pdp"
+            - review_author = setup_author("Karl A Newquist", review_url, 5)
+            %h3= link_to "Absolutely Amazing Book", review_url
+            :markdown
+              > I have read the other reviews and agree with all of them. I read a wide variety of books from classics to
+              > best sellers to science fiction to murder mysteries and everything in between. This book is an outstanding
+              > read regardless of whether you are into science fiction.
+              >
+              > The character development, plot and creative writing are exceptional. What really sets this book apart is
+              > that you never get what you expect. The twists and turns exceed any mystery I have ever read. Sir Arthur
+              > Conan Doyle would be proud of Son of Sedonia's unpredictabilty. Isaac Asimov would be enthralled by the
+              > futuristic picture the author paints and how the reader can see it so vividly.
+              >
+              > Another fantastic feature is the book's complexity. The science fiction setting and the technology is just
+              > part of that complexity. Its the multiple characters and the parts they play, the scene changes and their
+              > coloring, and most of all, the intricately woven story that pulls everything together even tho at times you
+              > wonder where is a particular part playing in the whole scheme. And the ending....
+              >
+              > Please read this book! It is quite possibly the best book I have read in at least 10 years. My only wish is
+              > if there was a way to get these reviews read by many more people so they will read it and have the
+              > opportunity to be mesmerized. I will try social media outlets but this needs someone in big book review
+              > shoes to put the word out.
+              >
+              > *#{review_author}*
+
+%section.light-section
+  #author
+    .row
+      .large-12.columns
+        %h2 From the Author
+        .row
+          .large-4.center.columns
+            = image_tag "ben-chaney.jpg", :class => "author-image"
+          .large-8.columns
+            .panel.radius
+              :markdown
+                Hi, I’m Ben Chaney. I grew up with a passion for SciFi and Fantasy that led me to study visual
+                storytelling and illustration at the Savannah College of Art and Design. After graduation, I worked
+                my way up through the video game industry; QA testing at Epic Games and Redstorm Entertainment, game
+                art production at Schell Games in Pittsburgh, Pennsylvania, then art direction at Villain LLC in
+                Cary, North Carolina.
+
+                But storytelling had taken a hold of me at SCAD, and manifested in a pet writing project. Often
+                neglected or pushed aside for other things, “Son of Sedonia” grew slowly over six long years.
+                Somehow, the image of the boy on the slum rooftop stayed stuck in my head.
+
+                As I honed my craft, the world changed. America plunged into recession, political discord, and
+                uncertainty, triggering a desire for information the likes of which I had never before experienced.
+                My writing, and this book, matured as I did.
+
+                Video game development had given me confidence in my abilities. What to do with those abilities
+                became impossible to ignore. That and the ceaseless, loving voices around me, all saying the same
+                thing: “Follow your heart.” In June 2012, I quit my successful career in game development to do
+                just that.
+
+                This book is the result.
+
+%section
+  #blog
+    .row
+      .large-12.columns
+        %h2 Stay Up to Date
+        .row
+          .large-12.columns
+            %ul.large-block-grid-3
+              %li

@@ -1,0 +1,53 @@
+$base-font-stack: 'PT Sans','Averia Serif Libre', 'Lora', "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+$base-font-size: 15px;
+$base-font-color: #f6f6f6;
+$base-font-weight: 100;
+$base-line-height: 26px;
+
+$link-color-normal: lighten(#2CC39E, 15%);
+$link-color-hover: lighten($link-color-normal, 20%);
+$link-color-active: $link-color-normal;
+$link-color-visited: $link-color-normal;
+$link-color-focus: $link-color-normal;
+
+@mixin base-fonts {
+  color: $base-font-color;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+
+  // font-family: 'Questrial', sans-serif;
+  // font-family: 'Arvo', serif;
+  // font-family: 'Lora', serif;
+  // font-family: 'Caudex', serif;
+  font-family: 'PT Sans', sans-serif;
+  // font-family: 'Averia Serif Libre', cursive;
+  // font-family: 'Varela', sans-serif;
+}
+
+body { @include base-fonts; }
+
+a {
+  @include link-colors($link-color-normal,
+                       $link-color-hover,
+                       $link-color-active,
+                       $link-color-visited,
+                       $link-color-focus);
+  text-decoration: none;
+}
+
+
+
+h1, h2 { color: #f6f6f6; }
+h1, h2 { font-family: 'Caudex', serif; @include text-shadow(1px 1px 0 rgba(0,0,0, .65)); }
+
+h1 { font-size: 2.6em; line-height: 1em; margin-bottom: 10px; }
+h2 { font-size: 2em; line-height: 1em; margin-bottom: 10px; }
+h3 { font-size: 1.1em; line-height: 1.4em; margin-bottom: 10px; }
+h4 { font-size: 1.05em; }
+
+// h1,h2,h3,h4 { margin-bottom: .5em; }
+p { margin-bottom: 10px; }
+
+em { font-style: italic; }
+strong { font-weight: 700; }

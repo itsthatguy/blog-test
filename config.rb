@@ -9,7 +9,7 @@ activate :blog do |blog|
   blog.permalink = ":year/:month/:day/:title"
   # blog.sources = ":year-:month-:day-:title.html"
   # blog.taglink = "tags/:tag.html"
-  # blog.layout = "layout"
+  blog.layout = "layouts/blog"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = ":year.html"
@@ -24,6 +24,12 @@ activate :blog do |blog|
   # blog.per_page = 10
   # blog.page_link = "page/:num"
 end
+
+
+Disqus::defaults[:account] = 'sonofsedonia'
+Disqus::defaults[:developer] = true
+
+activate :directory_indexes
 
 page "", :layout_engine => 'haml'
 page "/feed.xml", :layout => false
@@ -71,16 +77,14 @@ page "/feed.xml", :layout => false
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def setup_author(name, url, stars)
+    return "<cite class='author-comment'><a href='#{url}'>#{name}</a><span class='stars-#{stars}'></span></cite>"
+  end
+end
 
 set :css_dir, 'stylesheets'
-
 set :js_dir, 'javascripts'
-
 set :images_dir, 'images'
 
 # Build-specific configuration

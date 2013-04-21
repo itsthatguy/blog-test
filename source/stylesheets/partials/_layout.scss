@@ -1,0 +1,14 @@
+.container { @include container; }
+
+.col-left { @include column(4); }
+.col-right { @include column(6, true); }
+
+.kind-of-like {
+}
+
+.about-the-author {
+  .text { @include column(5); }
+  .portrait { @include column(5, true);}
+}
+
+.right { float: right; }

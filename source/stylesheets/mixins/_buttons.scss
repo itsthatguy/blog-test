@@ -1,0 +1,42 @@
+@mixin button-background($colors, $hover-colors) {
+  @if length($colors) > 1 { @include background-image(linear-gradient(top, $colors)); }
+  @else { background: $colors; }
+  &:hover {
+    @if length($hover-colors) > 1 { @include background-image(linear-gradient(top, $hover-colors)); }
+    @else { background: $hover-colors; }
+  }
+}
+
+%button {
+  @include box-shadow($standard-shadow);
+  @include button-background($primary-button-background, $primary-button-background-hover);
+  // @include inline-block;
+  @include text-shadow(0 1px solid $black);
+  @include border-radius(6px);
+  border: none;
+  color: $white;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 100;
+  text-decoration: none;
+  margin-bottom: emCalc(6px);
+  &:hover { color: $black; }
+}
+
+.button {
+  @extend %button;
+
+  &.secondary {
+    @include button-background($secondary-button-background, $secondary-button-background-hover);
+    color: $secondary-color;
+  }
+
+  // background: rgba(255,255,255, .1);
+
+  &.small { font-size: 10px; }
+
+  &.large { font-size: 18px; }
+
+  &.expand { width: 100%; text-align: center; }
+
+}
