@@ -1,0 +1,82 @@
+#blog {
+
+  h1.title {
+    text-align: left;
+    color: $alert-color;
+    margin-bottom: emCalc(6px);
+  }
+
+  h2 {
+    font-size: emCalc(32px);
+  }
+
+  h5 { margin-top: 0; }
+
+  h6, dt {
+    @include text-shadow(none);
+    color: $fourth-color;
+    text-transform: uppercase;
+    font-size: emCalc(12px);
+    font-family: 'lato', serif;
+    letter-spacing: emCalc(3px);
+    // font-weight: 300;
+  }
+
+  .button.twitter { margin-bottom: emCalc(24px); }
+  .article {
+    display: block;
+    border-bottom: 1px solid $secondary-color;
+    margin-bottom: emCalc(24px);
+    color: $body-font-color;
+
+    .title { margin-bottom: emCalc(4px); }
+    &:hover .title {
+      @include transition(color .2s linear);
+      color: $primary-color;
+    }
+  }
+
+
+dl {
+  dt {
+    font-size: emCalc(14px);
+  }
+  dd {
+    margin-bottom: emCalc(24px);
+  }
+}
+  ol, ul {
+    @include reset-list-style;
+
+  }
+
+  .comments {
+    color: $secondary-color;
+    font-size: emCalc(11px);
+    margin-left: emCalc(12px);
+    i {
+      margin-right: emCalc(2px);
+    }
+  }
+
+  .thumbnail {
+    img { width: 100%; min-height: 100%; }
+    @include box-shadow(0 1px 2px rgba(0,0,0, .12));
+    border: 4px solid $white;
+    overflow: hidden;
+    height: 140px;
+    margin-bottom: emCalc(12px);
+
+    @media #{$small} {
+      height: 120px;
+      margin-bottom: emCalc(24px);
+    }
+  }
+
+  #disqus_thread {
+    border-top: 1px solid $secondary-color;
+    padding-top: emCalc(24px);
+    margin-top: emCalc(24px);
+  }
+
+}

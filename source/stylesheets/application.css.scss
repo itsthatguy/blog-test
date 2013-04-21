@@ -7,6 +7,7 @@ $black                  : rgb(45,48,50);
 $primary-color          : #25c6e2;
 $secondary-color        : #e9e9e9;
 $third-color            : lighten($black, 20%);
+$fourth-color           : darken($secondary-color, 10%);
 $alert-color            : #c60f13;
 $success-color          : #d0653a;
 $light-color            : rgba(0,0,0, .35);
@@ -66,13 +67,23 @@ $white-bg: image_url("square_bg.png");
 $grey-bg: image_url("square_bg.png");
 $dark-bg: image_url("square_bg.png");
 
+
 @import "foundation";
 @import "compass/css3";
+@import "compass/reset/utilities";
 @import "vendor/font-awesome";
 @import "mixins/buttons";
+@import "blog";
 
 #summary, #reviews { padding-top: $topbar-height; margin-top: -$topbar-height; }
-* { @include text-shadow(0 1px 0 rgba(0,0,0,.12)); }
+* {
+  @include text-shadow(0 1px 0 rgba(0,0,0,.12));
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
 body {
   background-image: $white-bg;
 }
@@ -148,8 +159,6 @@ blockquote p {
     margin-bottom: 0;
     h1, h2, h3, h4, h5 { color: $secondary-color; }
 
-    h1 { margin-bottom: 0; }
-
   }
 }
 
@@ -224,20 +233,6 @@ cite {
   }
 }
 
-#blog {
-  li {
-    margin-bottom: 10px;
-    .panel { padding: 10px; overflow: hidden; height: 200px; }
-    .thumbnail {
-      height: 178px;
-      overflow: hidden;
-    }
-    .panel {
-      height: 200px;
-    }
-  }
-}
-
 #social {
   // background: $secondary-color;
   font-size: emCalc(13px);
@@ -297,7 +292,7 @@ a {
 .stars-4 { @include stars-sprite(3); }
 .stars-5 { @include stars-sprite(4); }
 
-section h2 {
+section h1 {
   // border-bottom: 1px solid rgba(0,0,0, .12);
 
   font-size: emCalc(36px);

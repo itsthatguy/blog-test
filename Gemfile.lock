@@ -66,6 +66,7 @@ GEM
       sprockets (~> 2.1, < 2.5)
       sprockets-sass (~> 0.8.0)
     multi_json (1.7.2)
+    nokogiri (1.5.9)
     padrino-core (0.10.7)
       activesupport (~> 3.2.0)
       http_router (~> 0.10.2)
@@ -117,4 +118,5 @@ DEPENDENCIES
   middleman (~> 3.0.6)
   middleman-blog (~> 3.2.0)
   middleman-sprockets (= 3.0.4)
+  nokogiri (~> 1.5.9)
   zurb-foundation (~> 4.0.7)
