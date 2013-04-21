@@ -10,3 +10,4 @@ gem "middleman-sprockets", "=3.0.4"
 gem "builder", "~> 3.0.0"
 gem 'zurb-foundation', '~>4.0.7'
 gem "disqus", "~> 1.0.4"
+gem "nokogiri", "~> 1.5.9"
