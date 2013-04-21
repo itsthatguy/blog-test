@@ -106,10 +106,7 @@ blockquote p {
 .top-bar {
   &, .title-area, .has-form { background: none !important; }
 
-  ul {
-    background-image: $dark-bg !important;
-    @media #{$small} { background: none !important; }
-  }
+  ul { background-image: $dark-bg !important; }
 }
 
 
