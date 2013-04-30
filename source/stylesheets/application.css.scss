@@ -321,3 +321,37 @@ section h1 {
 }
 
 .characters { text-align: center; }
+
+
+$font_path: 'icomoon';
+@include font-face(
+    'icomoon',
+    font-files(
+        "#{$font_path}.woff", woff,
+        "#{$font_path}.ttf", truetype,
+        "#{$font_path}.otf", opentype,
+        "#{$font_path}.svgz#icomoon", svg,
+        "#{$font_path}.svg#icomoon", svg),
+    '#{$font_path}.eot',
+    normal,
+    normal);
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+@mixin icomoon {
+  font-family: icomoon;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+}
+.file-pdf {
+  @include icomoon;
+}
+.file-pdf:before {
+  content: "\e008";
+}
