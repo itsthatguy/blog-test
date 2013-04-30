@@ -3,7 +3,7 @@ title: Concept Art - The Governor's Penthouse
 date: 2013-05-01
 tags: indie sci fi, dystopian, utopian, slums, singularity
 summary: "Consume, rinse, repeat. If they only knew." - Sgt John Kabbard. SCPD EXO Division.
-thumbnail: [http://imgur.com/0whwtyb]
+thumbnail: http://i.imgur.com/0whwtyb.jpg
 ---
 
 ![alt text](http://imgur.com/0whwtyb "Title")
