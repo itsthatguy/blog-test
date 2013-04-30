@@ -2,7 +2,7 @@
 title: Concept Art - The Stepstones
 date: 2013-05-01
 tags: indie sci fi, dystopian, utopian, slums, singularity
-summary: "Build shelter how you can. Pray for rain." - Gospel of the Blue Ladies
+summary: '"Build shelter how you can. Pray for rain." - Gospel of the Blue Ladies'
 thumbnail: http://i.imgur.com/AWDxAg1.jpg
 ---
 
@@ -17,7 +17,7 @@ After a good morning's work of pick-pocketing, six-year-old Jogun is on his way 
 
 (Read more in the Prologue of *Son of Sedonia*).
 
-     
+
 
 
 
