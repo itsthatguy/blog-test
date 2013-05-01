@@ -6,13 +6,13 @@ summary: '"Consume, rinse, repeat. If they only knew." - Sgt John Kabbard. SCPD 
 thumbnail: http://i.imgur.com/0whwtyb.jpg
 ---
 
-![alt text](http://imgur.com/0whwtyb "Title")
+![alt text](http://i.imgur.com/0whwtyb.jpg "Title")
 
 *(Combination of digital painting and photo-texture manipulation in Adobe Photoshop CS4)*
 
-**Penetrating through to the clouds, the flowing towers of the Center Ring shine in pristine neighborhoods.** Traffic is quiet and sparse. The buildings are polished glass and bleached synthetics, flecked with the greens, reds, yellows, and violets of lavish gardens. Many of its residents never descend below 2500 feet.
+**Reaching up to the clouds, the towers of the Center Ring shine in pristine neighborhoods.** Traffic is quiet and sparse. The buildings are polished glass and bleached synthetics, flecked with the greens, reds, yellows, and violets of lavish gardens. Many residents never descend below 2500 feet.
 
-Governor Enota Sato arrives at his penthouse villa. Drunker than he expected, yet again. Head throbbing, he hands his watered-down bourbon to his attendant. Sato smooths his hair and straightens his suit, hoping that appearances can mask desperation...
+Governor Enota Sato arrives at his penthouse villa, more drunk than he expected...again. Head throbbing, he fumbles his watered-down bourbon onto the attendant's tray. He takes a moment. Smoothing his hair and straightening his suit, the honorable Governor hopes that appearances can mask desperation...
 
 (Read more in Part 1, Chapter 3 of *Son of Sedonia*)
 
