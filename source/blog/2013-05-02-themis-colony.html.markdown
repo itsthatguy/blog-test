@@ -1,6 +1,6 @@
 ---
 title: Concept Art - Themis Mining Colony
-date: 2013-05-01
+date: 2013-05-02
 tags: indie sci fi, dystopian, utopian, slums, singularity
 summary: '"Do you have any idea what hiring just ONE worker on the Moon costs Virton?" - Elias Finley. Virton Energy, CEO.'
 thumbnail: http://i.imgur.com/RYBxziR.jpg

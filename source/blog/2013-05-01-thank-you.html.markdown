@@ -1,5 +1,5 @@
 ---
-title: First Post - "It takes a village"
+title: "It takes a village"
 date: 2013-05-01
 tags: example
 summary: As lonely a process as writing is, the love and support of others is invaluable. Here are a few of the amazing folks who helped me along the way.
