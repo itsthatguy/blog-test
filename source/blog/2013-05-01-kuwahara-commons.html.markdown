@@ -3,7 +3,7 @@ title: Concept Art - The Kuwahara Commons
 date: 2013-05-01
 tags: indie sci fi, dystopian, utopian, slums, singularity
 summary: '"Consume, rinse, repeat. If they only knew." - Sgt John Kabbard. SCPD EXO Division.'
-thumbnail: http://i.imgur.com/4jT0hQm.jpg
+thumbnail: http://i.imgur.com/4Gj0ACj.jpg
 ---
 
 ![alt text](http://i.imgur.com/4jT0hQm.jpg "Title")

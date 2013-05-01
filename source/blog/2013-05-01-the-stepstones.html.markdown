@@ -3,7 +3,7 @@ title: Concept Art - The Stepstones
 date: 2013-05-01
 tags: indie sci fi, dystopian, utopian, slums, singularity
 summary: '"Build shelter how you can. Pray for rain." - Gospel of the Blue Ladies'
-thumbnail: http://i.imgur.com/AWDxAg1.jpg
+thumbnail: http://i.imgur.com/ef5dhFC.jpg
 ---
 
 ![alt text](http://i.imgur.com/AWDxAg1.jpg "Title")
