@@ -6,7 +6,7 @@ summary: '"Consume, rinse, repeat. If they only knew." - Sgt John Kabbard. SCPD 
 thumbnail: http://i.imgur.com/4Gj0ACj.jpg
 ---
 
-![alt text](http://i.imgur.com/4jT0hQm.jpg "Title")
+ [<img src="http://i.imgur.com/4jT0hQm.jpg">](http://i.imgur.com/4jT0hQm.jpg "Click for full res")
 
 *(Combination of digital painting and photo-texture manipulation in Adobe Photoshop CS4)*
 

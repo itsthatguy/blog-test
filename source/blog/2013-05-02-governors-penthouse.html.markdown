@@ -6,7 +6,7 @@ summary: '"Jesus, Kathy. Why couldn&rsquo;t you just take the money and keep qui
 thumbnail: http://i.imgur.com/xx9gn2u.jpg
 ---
 
-![alt text](http://i.imgur.com/0whwtyb.jpg "Title")
+ [<img src="http://i.imgur.com/0whwtyb.jpg">](http://i.imgur.com/0whwtyb.jpg "Click for full res")
 
 *(Combination of digital painting and photo-texture manipulation in Adobe Photoshop CS4)*
 

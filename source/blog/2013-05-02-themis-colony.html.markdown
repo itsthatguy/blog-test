@@ -6,7 +6,7 @@ summary: '"Do you have any idea what hiring just ONE worker on the Moon costs Vi
 thumbnail: http://i.imgur.com/RYBxziR.jpg
 ---
 
-![alt text](http://i.imgur.com/PQNcuDL.jpg "Title")
+ [<img src="http://i.imgur.com/PQNcuDL.jpg">](http://i.imgur.com/PQNcuDL.jpg "Click for full res")
 
 *(Combination of digital painting and photo-texture manipulation in Adobe Photoshop CS4)*
 

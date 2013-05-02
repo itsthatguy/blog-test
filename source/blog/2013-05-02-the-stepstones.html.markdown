@@ -6,7 +6,7 @@ summary: '"Build shelter how you can. Pray for rain." - Gospel of the Blue Ladie
 thumbnail: http://i.imgur.com/ef5dhFC.jpg
 ---
 
-![alt text](http://i.imgur.com/AWDxAg1.jpg "Title")
+ [<img src="http://i.imgur.com/AWDxAg1.jpg">](http://i.imgur.com/AWDxAg1.jpg "Click for full res")
 
 *(Combination of digital painting and photo-texture manipulation in Adobe Photoshop CS4)*
 
