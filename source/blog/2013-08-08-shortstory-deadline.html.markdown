@@ -27,13 +27,13 @@ A pitiful rain had fallen, snaking down the glass in jagged patterns blown by hi
 
 BING! A chat notification bounced out of his periphery bar and scared the shit out of him. Childish anger faded when he saw the profile picture. It was Andrew from the art department down the hall. A young, oval face with a wise-ass smile, lazy stubble beard, and a mop of curly blonde locks dangling over the brow. Christopher sighed. Too bad Andy was straight.
 
-*<Early lunch? :D>* was all it said. Andy had gone out of his way to make sure Christopher, as the new guy, felt welcome and appreciated. Christopher had taken that for flirting at first, but then noticed Andy was that way with everyone. *Popular AND cute...* Just like all the other charming, quirky, painfully hetero guys from Sedonia Technical Arts Center. Christopher tapped the pop-up, prompting the curved Neural keyboard to manifest in front of him. He hesitated a moment in front of the hovering, empty text field. Started typing.
+*&lt;Early lunch? :D&gt;* was all it said. Andy had gone out of his way to make sure Christopher, as the new guy, felt welcome and appreciated. Christopher had taken that for flirting at first, but then noticed Andy was that way with everyone. *Popular AND cute...* Just like all the other charming, quirky, painfully hetero guys from Sedonia Technical Arts Center. Christopher tapped the pop-up, prompting the curved Neural keyboard to manifest in front of him. He hesitated a moment in front of the hovering, empty text field. Started typing.
 
-*<I'm tempted, but I should keep at it...the more breaks I take the less I'll get done--->* Christopher shook his head and held down the delete key. Started over.
+*&lt;I'm tempted, but I should keep at it...the more breaks I take the less I'll get done---&gt;* Christopher shook his head and held down the delete key. Started over.
 
-*<Thanks man, but I really need to--->* He deleted again.
+*&lt;Thanks man, but I really need to---&gt;* He deleted again.
 
-*<Hell yes! Take me away from all this.>* Christopher hit 'SEND,' sighed, and then smiled. The immediate knock on his office door startled him. There stood Andy, making a show of peering pig-nosed and cross-eyed against the frosted glass. Christopher grinned, fluttering a little inside. *Fucking artists...*
+*&lt;Hell yes! Take me away from all this.&gt;* Christopher hit 'SEND,' sighed, and then smiled. The immediate knock on his office door startled him. There stood Andy, making a show of peering pig-nosed and cross-eyed against the frosted glass. Christopher grinned, fluttering a little inside. *Fucking artists...*
 
 The ride out to Tsushi-nami was cramped in Andy's lime-green, hatchback Z-Glider. Ellie from HR and Fitz from Engineering were along for the ride, and Fitz, being a giant laughing gorilla of a man, got shotgun by default. Even with the seat pushed back for maximum leg-room, the guy's knees touched the dash. Christopher, the smallest of the group, was crammed in the backseat behind Fitz. He could still creep on Andy from there, but that was a sad consolation prize...and something smelled funny in the tattered upholstery. Andy had two french bulldogs. Apparently they were frequent passengers.
 
@@ -82,11 +82,11 @@ No one bothered the four lunch-goers as they approached the art deco facade of T
 “Holy shit, *thank you* civil disobedience!” Andy said as he swung under each rope like a spider monkey, making his way to the front. The rest followed like normal people.
 The Tsushi-nami menu popped-up in Christopher's Neural as he entered the queue. He tapped it, surrounding himself in a ring of delicious options. The Special Maki sushi appeared front and center. With every swipe of his hand, a new 3-dimensional sushi roll rotated in front of him. The descriptions, and the real-time taste simulations, made his stomach growl.
 
-*<The Cosmic Prawn: Tempura shrimp, crab salad, mango, cantaloupe, and goma dressing>*
+*&lt;The Cosmic Prawn: Tempura shrimp, crab salad, mango, cantaloupe, and goma dressing&gt;*
 
-*<The Crunchy Deckard: Soft shell crab, spicy yellowtail, kaiware, crispy noodles, spicy mayo>*
+*&lt;The Crunchy Deckard: Soft shell crab, spicy yellowtail, kaiware, crispy noodles, spicy mayo&gt;*
 
-*<The Big Ka-tuna: Spicy tuna, avacado, cream cheese, jalapeno, lightly fried, with eel sauce>*
+*&lt;The Big Ka-tuna: Spicy tuna, avacado, cream cheese, jalapeno, lightly fried, with eel sauce&gt;*
 
 Seeing the words 'cheese,' 'jalapeno,' and 'fried' made Christopher's hand dart out for the button. After tapping 'Confirm Purchase,' he watched his profile picture attach to the menu selection and pop behind the other orders in the queue. The task bar underneath couldn't move fast enough.
 
@@ -117,7 +117,7 @@ A sudden stir among the protesters caught Christopher's eye. A scruffy, plain ki
 
 A high-pitched buzzing followed within moments. Two more drones circled the plaza and joined the first three. In perfect, mechanical unison, they formed a pentagram around the mob. *There's no one watching.* Christopher realized. *Those are AI...this is an automated response.* Anger and fear surged through the protesters.
 
-**<Disperse now. Disperse now. Disperse now.>**
+**&lt;Disperse now. Disperse now. Disperse now.&gt;**
 
 Christopher winced, suppressing the sudden urge to take off running. The phrase repeated over and over in his mind. It wasn't like a text or an audio message...more like a cold, hard thought, shoved into his awareness. Everyone felt it.
 
@@ -129,7 +129,7 @@ They made it halfway to the elevators when Christopher saw a shiny object streak
 
 “This way!” It was Ellie's voice. He clutched her soft, small hand as it dragged him onward. Every ragged breath stoked fire in his lungs, making escape the only thought in his mind. The only thought of his own, anyway.
 
-**<Disperse now. Disperse now. Disperse now.>**
+**&lt;Disperse now. Disperse now. Disperse now.&gt;**
 
 Christopher became aware of a crush of bodies all around him, pushing and shoving to get off of the plaza. Unable to see, he heard voices everywhere. Coughing. Cries of pain. Desperate shouts for the names of strangers. Christopher winced as he felt his foot come down on something soft. Jumped as he heard the scream.
 
@@ -147,7 +147,7 @@ They arrived at Andy's Z-Glider and the passenger canopy slid up and back. Chris
 
 “Okay--” Christopher spat, coughed, “I'm okay, let's go.” He dropped himself into a heap in the back seat. Smooth silence closed around them as the canopy hissed shut and formed the air seal. He felt a vibration in his temples. Another alien thought hijacked his attention.
 
-**<Thank you for your cooperation.>**
+**&lt;Thank you for your cooperation.&gt;**
 
 The 'voice,' he could tell, had been programmed to soothe and reassure its recipient. An emotive multiplier effect...something he used often in Immersion Studio T3K. Under the weight of that realization, and the burning ache throughout his body, Christopher felt neither soothed nor reassured.
 
