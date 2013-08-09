@@ -2,7 +2,7 @@
 title: "Short Story - 'Deadline'"
 date: 2013-08-08
 tags: example
-summary: Christopher has just landed his dream job: Neural Game Designer at the Inner Ring studio 'Fiero Games.' When the stress of a first-day deadline hits, he ventures out for lunch with some new coworkers. But the distraction he finds will show him a different reality. One that, until now, he had only ever seen on the worst highlights of the evening news.
+summary: "Christopher has just landed his dream job: Neural Game Designer at the Inner Ring studio 'Fiero Games.' When the stress of a first-day deadline hits, he ventures out for lunch with some new coworkers. But the distraction he finds will show him a different reality. One that, until now, he had only ever seen on the worst highlights of the evening news."
 thumbnail: http://i.imgur.com/4tAePDU.jpg
 ---
 
